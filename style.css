@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+:root {
+    --cor-principal: rgb(254, 50, 142);
+    --cor-secundaria: rgb (7, 7, 7);
+    --cor-destaque: rgb (208, 45, 252);
+}
+
+body {
+font-family: 'Inconsolata', sans-serif;
+}
+
+h1, h1, h3 {
+    color:var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color:var(--cor-principal);
+}
+
+footer a:hover {
+    color:var(--cor-destaque)
+}
