@@ -22,3 +22,28 @@ footer a {
 footer a:hover {
     color:var(--cor-destaque)
 }
+
+body.dark-mode {
+    background-color: rgb(94, 92, 109);
+    color: #ffffff;
+}
+
+.dark-mode {
+    margin-top: 20px;
+}
+
+.dark-mode-btn {
+    display: flex;
+}
+
+.dark-mode-btn {
+    background-color: rgb(44, 62,80);
+    color: white;
+    border-radius: 150px;
+}
+
+.dark-mode-btn:hover {
+    background-color: #ffffff;
+    color: rgb(44, 62,80);
+    border-radius: 150px;
+}
